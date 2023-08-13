@@ -1,0 +1,187 @@
+:root{
+--soft-orenge: hsl(35,77%,62%);
+--soft-red: hsl(5, 85%, 63%);
+--off-white: hsl(36, 100%, 99%);
+--grayish-blue: hsl(233, 8%, 79%);
+--dark-grayish-blue: hsl(236, 13%, 42%);
+--very-dark-blue: hsl(240, 100%, 5%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+  font-size: 15px;
+}
+
+
+nav {
+  width: 1000px;
+  height: 70px;
+  margin: 80px auto auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu > ul {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+.menu > ul > li > a {
+  text-decoration: none;
+  color: var(--dark-grayish-blue);
+}
+
+.menu > ul > li > a:hover {
+  color: var(--soft-orenge);
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+main > article {
+  width: 690px;
+}
+
+main > article > img {
+  width: 100%;
+}
+
+main > article > .content {
+  box-sizing: border-box;
+  margin-top: 20px;
+  display: flex;
+}
+
+main > article > .content > .content-1 {
+  width: 330px;
+  padding-right: 40px;
+}
+main > article > .content > .content-1 > h1 {
+  font-size: 3.5rem;
+}
+
+main > article > .content > .content-2 {
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+}
+
+main > article > .content > .content-2 > p {
+  color: var(--grayish-blue);
+}
+
+main > article > .content > .content-2 > a {
+  border: 1px solid var(--very-dark-blue);
+  padding: 0.75rem 2rem;
+  margin-top: 4rem;
+  letter-spacing: 0.25rem;
+  align-self: flex-start;
+  background-color: var(--very-dark-blue);
+  color: var(--off-white);
+  text-decoration: none;
+
+}
+
+main > aside {
+  width: 290px;
+  background-color: var(--very-dark-blue);
+}
+
+main > aside > div {
+  padding: 20px;
+}
+
+main > aside > h1 {
+  font-size: 2.5rem;
+  margin: 1.5rem 1.5rem 0 1.5rem;
+  color: var(--soft-orenge);
+}
+
+main > aside > div {
+  margin: 0;
+  padding: 1rem 1.5rem;
+}
+
+main > aside > div > h3 > a {
+  color: var(--off-white);
+  text-decoration: none;
+}
+
+main > aside > div > h3 > a:hover {
+  color: var(--soft-orenge);
+}
+
+main > aside > div > p {
+  color: var(--grayish-blue);
+  margin-top: 1rem;
+  font-size: 0.85rem;
+}
+
+.trending {
+  box-sizing: border-box;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.trending > .article {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.cover > img {
+  width: 70px;
+  height: 90px;
+}
+
+.content-side > h2 {
+  font-size: 1.2rem ;
+  color: var(--grayish-blue);
+  margin-bottom: 5px;
+}
+
+.content-side > a {
+  text-decoration: none;
+}
+
+.content-side > a > strong {
+  font-size: 1rem;
+  color: var(--very-dark-blue);
+}
+
+.content-side > a > strong:hover {
+  color: var(--soft-orenge)
+}
+
+.content-side > p {
+  color: var(--grayish-blue);
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+
+footer {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.attribution >a {
+  text-decoration: none;
+}
+
+
+
